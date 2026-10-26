@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 本地开发运行目录（存档、日志、mixin 导出）
+run/
+
+# 本地工具链（自带的 Gradle 发行版，约 146MB，不入库）
+_tools/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 杂项
+*.log

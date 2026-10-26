@@ -1,0 +1,19 @@
+{
+  "offhandonly.config.title": "仅副手",
+  "offhandonly.config.attack": "禁用主手攻击",
+  "offhandonly.config.block_breaking": "禁用主手挖掘",
+  "offhandonly.config.offhand_mining": "允许副手挖掘",
+  "offhandonly.config.offhand_attack": "允许副手攻击",
+  "offhandonly.config.offhand_empty_attack": "副手空手攻击",
+  "offhandonly.config.offhand_interact": "右键强制副手",
+  "offhandonly.config.survival_only": "仅生存模式",
+  "offhandonly.config.render_main_hand": "渲染主手",
+  "offhandonly.config.render_offhand": "渲染副手",
+  "offhandonly.config.debug": "调试日志",
+  "offhandonly.config.mining_speed": "副手挖掘效率: %s",
+  "offhandonly.config.attack_damage": "副手攻击伤害: %s",
+  "offhandonly.config.whitelist": "玩家白名单",
+  "offhandonly.config.whitelist_hint": "玩家白名单（逗号分隔，留空 = 全部生效）",
+  "offhandonly.config.on": "开",
+  "offhandonly.config.off": "关"
+}

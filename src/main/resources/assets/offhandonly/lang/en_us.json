@@ -1,0 +1,19 @@
+{
+  "offhandonly.config.title": "Offhand Only",
+  "offhandonly.config.attack": "Disable main-hand attack",
+  "offhandonly.config.block_breaking": "Disable main-hand mining",
+  "offhandonly.config.offhand_mining": "Allow offhand mining",
+  "offhandonly.config.offhand_attack": "Allow offhand attack",
+  "offhandonly.config.offhand_empty_attack": "Offhand empty-hand attack",
+  "offhandonly.config.offhand_interact": "Force offhand on right click",
+  "offhandonly.config.survival_only": "Survival only",
+  "offhandonly.config.render_main_hand": "Render main hand",
+  "offhandonly.config.render_offhand": "Render offhand",
+  "offhandonly.config.debug": "Debug logging",
+  "offhandonly.config.mining_speed": "Offhand mining speed: %s",
+  "offhandonly.config.attack_damage": "Offhand attack damage: %s",
+  "offhandonly.config.whitelist": "Player whitelist",
+  "offhandonly.config.whitelist_hint": "Player whitelist (comma separated, empty = everyone)",
+  "offhandonly.config.on": "ON",
+  "offhandonly.config.off": "OFF"
+}

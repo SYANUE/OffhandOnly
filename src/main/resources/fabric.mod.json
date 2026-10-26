@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "offhandonly",
+  "version": "${version}",
+  "name": "Offhand Only",
+  "description": "主手左键/右键完全禁用，所有交互强制交给副手；物品使用逻辑完全沿用原版，不模拟任何物品行为。",
+  "authors": [
+    "WorkBuddy"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/offhandonly/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.offhandonly.OffhandOnly"
+    ],
+    "client": [
+      "com.example.offhandonly.OffhandOnlyClient"
+    ],
+    "modmenu": [
+      "com.example.offhandonly.client.OffhandOnlyModMenu"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "offhandonly.mixins.json"
+    },
+    {
+      "config": "offhandonly.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "modmenu": ">=7.0.0"
+  }
+}
