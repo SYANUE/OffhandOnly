@@ -195,4 +195,3 @@ ModMenu 模组列表里点齿轮，或直接改 `config/offhandonly.json`：
 ## 相关文档
 
 - [English README](README_EN.md)
-- [发布到 Modrinth 指南](docs/PUBLISHING-MODRINTH.md) —— 含可直接粘贴的**中英双语项目简介**
