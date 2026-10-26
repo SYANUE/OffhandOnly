@@ -1,5 +1,7 @@
 # Offhand Only（仅副手）
 
+**中文** | [English](README_EN.md)
+
 Minecraft **1.20.1 + Fabric** 模组：**主手左键/右键完全禁用，所有交互强制交给副手**，物品使用逻辑 100% 沿用原版。
 
 - 主手：不能攻击、不能破坏方块、不能使用物品、不能放方块、不能实体交互。
@@ -187,3 +189,10 @@ ModMenu 模组列表里点齿轮，或直接改 `config/offhandonly.json`：
 4. 少数实体交互在原版里写了 `if (hand == Hand.MAIN_HAND)` 才生效（村民交易、部分骑乘），
    严格只给 `OFF_HAND` 时按原版“副手右键”的结果走。
 5. 配置界面按 240 逻辑像素高度排版（GUI 缩放 2 的 854×480 默认窗口），更小的窗口会挤但控件仍可点。
+
+---
+
+## 相关文档
+
+- [English README](README_EN.md)
+- [发布到 Modrinth 指南](docs/PUBLISHING-MODRINTH.md) —— 含可直接粘贴的**中英双语项目简介**
